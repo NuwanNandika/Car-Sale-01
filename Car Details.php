@@ -93,19 +93,19 @@
     			<fieldset>
     				<legend>Car Details</legend>
     				<label>Title of the car</label><br/>
-    				<input type="text" name="C_title"  placeholder="Title" size="100"><br/><br/>
+    				<input type="text" name="C_title"  placeholder="Title" class="form-control"><br/><br/>
 
     				<label>Made in</label><br/>
-    				<input type="text" name="country"  placeholder="Made in" size="100"><br/><br/>
+    				<input type="text" name="country"  placeholder="Made in" class="form-control"><br/><br/>
 
     				<label>Price of the car</label><br/>
-    				<input type="text" name="price"  placeholder="Price" size="100"><br/><br/>
+    				<input type="text" name="price"  placeholder="Price" class="form-control"><br/><br/>
 
     				<label>Year of the car made</label><br/>
-    				<input type="text" name="year"  placeholder="Year" size="100"><br/><br/>
+    				<input type="text" name="year"  placeholder="Year" class="form-control"><br/><br/>
 
             <label>Short Discribtion of the car</label> <br/>
-          <textarea name="discription" rows="5" cols="101" placeholder="Discription"></textarea><br/><br/>
+          <textarea name="discription" rows="5" cols="101" placeholder="Discription" class="form-control"></textarea><br/><br/>
 
     				<label>Availability</label><br/>
     			   <input type="radio" name="available" value="A"/> <lable>Available</lable>
@@ -141,10 +141,10 @@
           <fieldset>
             <legend>Brand</legend>
             <label>Brand Name</label><br/>
-            <input type="text" name="C_title"  placeholder="Brand Name" size="100"><br/><br/>
+            <input type="text" name="C_title"  placeholder="Brand Name" class="form-control"><br/><br/>
 
             <label>Email</label><br/>
-            <input type="email" name="B_email"  placeholder="Email" size="100"><br/><br/>
+            <input type="email" name="B_email"  placeholder="Email" class="form-control"><br/><br/>
 
             
                 <div class="col-md-6" id="btn1">
@@ -168,7 +168,7 @@
           <fieldset>
             <legend>Model</legend>
             <label>Model Name</label><br/>
-            <input type="text" name="C_Model"  placeholder="Model Name" size="100"><br/><br/>
+            <input type="text" name="C_Model"  placeholder="Model Name" class="form-control"><br/><br/>
 
             
 
