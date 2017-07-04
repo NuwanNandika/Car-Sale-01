@@ -1,0 +1,115 @@
+#logo{
+	width:18em;
+	height:11em;
+	padding:0;
+}
+#col_1{
+	background-color:#d9e0e2;
+}
+
+#login{
+	font-size:2.5em;
+	font-family:HelvLight;
+	color:#aa0d2b;
+	text-decoration:none;
+	
+}
+#login:hover{
+	color:#000000;
+	font-size:2.7em;
+	text-decoration:none;
+}
+#registar{
+	font-size:2.5em;
+	font-family:HelvLight;
+	color:#aa0d2b;
+}
+#registar:hover{
+	color:#000000;
+	font-size:2.7em;
+	text-decoration:none;
+	
+}
+#button{
+	padding-top:1em;
+	padding-left:6em;
+}
+#add_button{
+	background-color:#f8b98b;
+	border:0.5em solid black;
+	font-size:1.5em;
+	font-family:HelvLight;
+	font-style:bold;
+}
+#add_button:hover{
+	font-size:1.5em;
+	font-family:Monotype Corsiva;
+}
+#form{
+	font-family:Maiandra GD;
+	font-size:1.5em;
+	background-color:#9fb0db;
+	
+}
+#style{
+	width:100%;
+	
+}
+
+.carousel-caption h1{
+	background-color:#333;
+	color:#fff;
+	
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	padding-left:1.5em;
+	padding-right:1.5em;
+	opacity:0.9;
+	display:inline-block;
+	font-family:Maiandra GD;
+	
+	
+}
+
+.carousel-caption p{
+	background-color:#333;
+	color:#fff;
+	
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	padding-left:1.5em;
+	padding-right:1.5em;
+	opacity:0.7;
+	display:inline-block;
+	font-family:Maiandra GD;
+	
+	
+}
+
+#footer{
+	background-color:#28292c;
+}
+#footerMenu{
+	color:white;
+	font-size:1.1em;
+}
+#end{
+	color:white;
+	font-family:Corbel;
+}
+#car{
+	font-size:2.5em;
+	color:white;
+	font-family:Ravie;
+}
+#sale{
+	font-size:1em;
+	color:white;
+	font-family:Ravie;
+}
+
+#btn1{
+	padding-left:35em;
+}
+
+

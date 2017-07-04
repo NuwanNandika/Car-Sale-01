@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css01/Design.css">
+	<title>Home</title>
+</head>
+<body id="body">
+
+<!-- End of the Container-->
+<div class="container-fluid">
+	
+<!-- Start of the Page Header-->
+	<div class="row" id="col_1">
+		<div class="col-md-3" >
+			<img src="images/Logo.png" id="logo">
+		</div>
+
+		<div class="col-md-5" >
+			
+		</div>
+
+		<div class="col-md-4" >
+			<div class="row">
+				<div class="col-md-6" ><a href="###"><span id="login"><b>Login</b></span></a></div>
+				<div class="col-md-6"><a href="###"><span id="registar"><b>Registar</b></span></a></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12" id="button">
+					<button class="btn" id="add_button">ADD ADVERTIESMENT</button>
+				</div>
+			</div>
+		</div>
+<!-- End of the Page Header-->
+	</div>
+
+
+<!-- Start of the Navgation bar-->
+	<div class="row">
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="Home.html">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Advertiesment
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Car Details.php">Brandnew Car</a></li>
+          <li><a href="#">Reuse Car</a></li>
+        </ul>
+      </li>
+      <li><a href="Register.html">Registration</a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">About Us</a></li>
+      
+    </ul>
+    <form class="navbar-form navbar-right">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
+  </div>
+</nav>
+<!-- End of the Navgation bar-->
+	</div>
+
+
+<!-- Start of the Form and Slide show-->
+	<div class="row">
+		<div class="col-md-3">
+		<center><h2>Find a Car</h2></center>
+	<!-- Start of the filter form-->
+			<form action="filter_action.php" id="form" class="pull-center">
+				<fieldset>
+					<legend>Car Details</legend>
+					<label>Made in</label><br/>
+			<select>
+  				<option value="volvo"></option>
+  				<option value="saab">China</option>
+  				<option value="opel">India</option>
+  				<option value="audi">USA</option>
+  				<option value="audi">_________________________</option>
+			</select>
+<br/><br/>
+			<label>Model</label><br/>
+			<select>
+  				<option value="volvo"></option>
+  				<option value="saab">Toyota</option>
+  				<option value="opel">BMW</option>
+  				<option value="audi">Audi</option>
+  				<option value="audi">_________________________</option>
+			</select>
+<br/><br/>
+			<label>Min Year</label><br/>
+			<select>
+  				<option value="volvo"></option>
+  				<option value="saab">2010</option>
+  				<option value="opel">2011</option>
+  				<option value="audi">2012</option>
+  				<option value="audi">_________________________</option>
+			</select>
+<br/><br/>
+			<label>Max Year</label><br/>
+			<select>
+  				<option value="volvo"></option>
+  				<option value="saab">2015</option>
+  				<option value="opel">2014</option>
+  				<option value="audi">2013</option>
+  				<option value="audi">_________________________</option>
+			</select>
+<br/><br/>
+			<label>Min Price</label><br/>
+			<select>
+  				<option value="volvo"></option>
+  				<option value="saab">$600</option>
+  				<option value="opel">$700</option>
+  				<option value="audi">$800</option>
+  				<option value="audi">_________________________</option>
+			</select>
+<br/><br/>
+			<label>Max Price</label><br/>
+			<select>
+  				<option value="volvo"> </option>
+  				<option value="saab">$1000</option>
+  				<option value="opel">$1100</option>
+  				<option value="audi">$1200</option>
+  				<option value="audi">_________________________</option>
+			</select>
+			
+<br/><br/>
+			<input type="submit" value="SUBMIT">
+
+				</fieldset>
+			</form>
+	<!-- End of the filter form-->
+		</div>
+
+	<!-- Start of the Slide show-->
+		<div class="col-md-9">
+
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+        <li data- target="#myCarousel" data- slide-to="0" class="active"> </li>
+        <li data- target="#myCarousel" data- slide-to="1" class="active"> </li>
+        <li data- target="#myCarousel" data- slide-to="2" class="active"> </li>
+    </ol>
+    
+<div class="carousel-inner">
+   
+        <div class="item active">
+            <img src="images/car1.jpg" id="style"  alt="THE BEST SOLUTION">
+            <div class="carousel-caption">
+                <h1>THE BEST SOLUTION</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        
+        <div class="item">
+            <img src="images/car2.jpg" id="style" alt="CONSTRUCT WORKS">
+            <div class="carousel-caption">
+                <h1>CONSTRUCT WORKS </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        
+         <div class="item">
+            <img src="images/car3.jpg" id="style" alt="MORDERN RESULTS">
+            <div class="carousel-caption" >
+                <h1>MORDERN RESULTS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    
+    </div>
+        
+     </div>   
+
+	<!-- End of the Slide show -->
+
+	</div>
+
+<!-- Start of the Form and Slide show-->
+		</div>
+
+
+<!-- Start of the Car details-->
+
+<div class="row">
+	<div class="col-md-12">
+    	<div class="well well-lg"><center><h2> Cars Details </h2></center></div>
+    </div>
+</div>
+
+
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car4.jpg" class="img-responsive img-thumbnail"></center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car5.jpg" class="img-responsive img-thumbnail"></center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car6.jpg" class="img-responsive img-thumbnail"></center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car7.jpg" class="img-responsive img-thumbnail"></center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car8.jpg" class="img-responsive img-thumbnail"></center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car9.jpg" class="img-responsive img-thumbnail" > </center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+	<!-- End of the Car details-->
+</div>
+
+
+<!-- Start of the Reuse Car-->
+<div class="row">
+	<div class="col-md-12">
+    	<div class="well well-lg"><center><h2> Reuse Cars Details</h2></center></div>
+        </div>
+</div>
+
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car4.jpg" class="img-responsive img-thumbnail"></center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car5.jpg" class="img-responsive img-thumbnail"></center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car6.jpg" class="img-responsive img-thumbnail"></center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car7.jpg" class="img-responsive img-thumbnail"></center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car8.jpg" class="img-responsive img-thumbnail"></center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="row" id="img1">
+			<center><img src="images/car9.jpg" class="img-responsive img-thumbnail" > </center>
+		</div>
+
+		<div class="row">
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.
+
+		</div>
+	</div>
+	<!-- End of the Reuse Car -->
+</div>
+
+<!-- Start of the Footer -->
+	<div class="row">
+
+		<div class="col-md-12" id="footer" >
+		<div class="row">
+			<div class="col-md-6">
+                 <div class="col-md-12"><center>
+                 	<span id="footerMenu"><br/><a href="###"> Home</a>  | 
+                 							   <a href="###"> News </a> | 
+                 							   <a href="Registraion.html"> Registraion </a> | 
+                 							   <a href="###"> Login </a> | 
+                 							   <a href="###"> Contact Us </a> | 
+                 							   <a href="###"> About Us </a> </span>
+                 							</center>
+                 </div>
+			</div>
+
+			<div class="col-md-12">
+			<center> </center>
+			</div>
+
+			
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<center><span id="car"> ABC-Car</span><span id="sale">Sale</span></center>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12" ><center>
+				<span id="end">@2017 Hearst Communications,Inc.All Rights Reserved.... Privacy Policy | Your Calfomila Privacy Rights | Internet-Based Ads | Terms of Use</span></center>
+			</div>
+		</div>
+			
+		</div>
+<!-- End of the Footer -->		
+	</div>
+
+
+
+<!-- End of the Container-->
+</div>
+</body>
+</html>
